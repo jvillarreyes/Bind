@@ -420,7 +420,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "If(\r\n    _VarMostrarMensaje,\r\n    true,\r\n    false\r\n)",
+            "InvariantScript": "If(\n    _VarMostrarMensaje,\n    true,\n    false\n)",
             "Property": "Visible",
             "RuleProviderType": "Unknown"
           }
@@ -655,7 +655,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "If(\r\n    _VarMostrarMensaje,\r\n    true,\r\n    false\r\n)",
+            "InvariantScript": "If(\n    _VarMostrarMensaje,\n    true,\n    false\n)",
             "Property": "Visible",
             "RuleProviderType": "Unknown"
           },
@@ -960,7 +960,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638478227910583954",
+    "LastModifiedTimestamp": "638478247219816231",
     "Name": "InfoAplica",
     "Rules": [
       {
@@ -983,7 +983,7 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "If(\r\n    _VarMostrarMensaje,\r\n    345,\r\n    30\r\n)",
+        "InvariantScript": "If(\n    _VarMostrarMensaje,\n    345,\n    30\n)",
         "Property": "Width",
         "RuleProviderType": "System"
       },
@@ -1019,7 +1019,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638478227910583954",
+  "LastModifiedTimestamp": "638478247219816231",
   "Name": "9cbf5b8daffc4fb6a63f632b0c8c9c4e",
   "OverridableProperties": {},
   "Version": "638235682749298151"

@@ -178,7 +178,7 @@
         "Rules": [
           {
             "Category": "Data",
-            "InvariantScript": "If(\r\n    IsMatch(htmlAlerta,\"Felicidades\",MatchOptions.Contains),\r\n    \"\uD83C\uDF96️\" & \" NO tienes info para actualizar\",\r\n    \"\uD83D\uDEA8\" & \"Tienes info pendiente por actualizar\"\r\n)\r\n",
+            "InvariantScript": "If(\n    IsMatch(htmlAlerta,\"Felicidades\",MatchOptions.Contains),\n    \"\uD83C\uDF96️\" & \" NO tienes info para actualizar\",\n    \"\uD83D\uDEA8\" & \"Tienes info pendiente por actualizar\"\n)\n",
             "Property": "Text",
             "RuleProviderType": "Unknown"
           },
@@ -202,7 +202,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "If(\r\n    IsMatch(htmlAlerta,\"Felicidades\",MatchOptions.Contains),\r\n    Color.Green,\r\n    Color.GhostWhite\r\n)\r\n//RGBA(255; 0; 0; 1)",
+            "InvariantScript": "If(\n    IsMatch(htmlAlerta,\"Felicidades\",MatchOptions.Contains),\n    Color.Green,\n    Color.GhostWhite\n)\n//RGBA(255; 0; 0; 1)",
             "Property": "Fill",
             "RuleProviderType": "Unknown"
           },
@@ -214,7 +214,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "If(\r\n    IsMatch(htmlAlerta,\"Felicidades\",MatchOptions.Contains),\r\n    Color.Green,\r\n    Color.GhostWhite\r\n)\r\n//RGBA(255; 0; 0; 1)",
+            "InvariantScript": "If(\n    IsMatch(htmlAlerta,\"Felicidades\",MatchOptions.Contains),\n    Color.Green,\n    Color.GhostWhite\n)\n//RGBA(255; 0; 0; 1)",
             "Property": "HoverFill",
             "RuleProviderType": "Unknown"
           },
@@ -370,7 +370,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "If(\r\n    IsMatch(htmlAlerta,\"Felicidades\",MatchOptions.Contains),\r\n    Color.White,\r\n    RGBA(255, 0, 0, 1)\r\n)\r\n\r\n",
+            "InvariantScript": "If(\n    IsMatch(htmlAlerta,\"Felicidades\",MatchOptions.Contains),\n    Color.White,\n    RGBA(255, 0, 0, 1)\n)\n\n",
             "Property": "Color",
             "RuleProviderType": "Unknown"
           },
@@ -568,7 +568,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "If(\r\n    _VarUsuarioJefe = \"E0S00E7\" || _VarUsuarioJefe = \"D0L0BPU\" || _VarUsuarioJefe = \"SQUIJAD\" || _VarUsuarioJefe = \"D0P0G5W\" || _VarUsuarioJefe = \"FNICOLE\" || _VarUsuarioJefe = \"FECKER1\" || _VarUsuarioJefe = \"K0R07N4\" || _VarUsuarioJefe = \"M0C0WK9\" || _VarUsuarioJefe = \"C0M0N9T\" || _VarUsuarioJefe = \"C0L03H3\" || _VarUsuarioJefe = \"J0M04FX\" || _VarUsuarioJefe = \"V0SALAZ\" || _VarUsuarioJefe = \"R0G01A5\" || _VarUsuarioJefe = \"M0A00Y0\",\r\n    false,\r\n    If( IsBlank(htmlAlerta),false,true)\r\n)\r\n",
+            "InvariantScript": "If(\n    _VarUsuarioJefe = \"E0S00E7\" || _VarUsuarioJefe = \"D0L0BPU\" || _VarUsuarioJefe = \"SQUIJAD\" || _VarUsuarioJefe = \"D0P0G5W\" || _VarUsuarioJefe = \"FNICOLE\" || _VarUsuarioJefe = \"FECKER1\" || _VarUsuarioJefe = \"K0R07N4\" || _VarUsuarioJefe = \"M0C0WK9\" || _VarUsuarioJefe = \"C0M0N9T\" || _VarUsuarioJefe = \"C0L03H3\" || _VarUsuarioJefe = \"J0M04FX\" || _VarUsuarioJefe = \"V0SALAZ\" || _VarUsuarioJefe = \"R0G01A5\" || _VarUsuarioJefe = \"M0A00Y0\",\n    false,\n    If( IsBlank(htmlAlerta),false,true)\n)\n",
             "Property": "Visible",
             "RuleProviderType": "Unknown"
           },
@@ -1390,18 +1390,18 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638478227910586540",
+    "LastModifiedTimestamp": "638478247219818053",
     "Name": "AlertasBind_2",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "If(\r\n    _VarAlertasInicio,\r\n    1050,\r\n    38\r\n)",
+        "InvariantScript": "If(\n    _VarAlertasInicio,\n    1050,\n    38\n)",
         "Property": "AltoNotificacion",
         "RuleProviderType": "System"
       },
       {
         "Category": "Data",
-        "InvariantScript": "If(\r\n    _VarAlertasInicio,\r\n    1920,\r\n    424\r\n)",
+        "InvariantScript": "If(\n    _VarAlertasInicio,\n    1920,\n    424\n)",
         "Property": "AnchoNotificacion",
         "RuleProviderType": "System"
       },
@@ -1431,13 +1431,13 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "If(\r\n    AlertasBind_2.EstadoAlerta,\r\n    1920,\r\n    424 + 70\r\n)",
+        "InvariantScript": "If(\n    AlertasBind_2.EstadoAlerta,\n    1920,\n    424 + 70\n)",
         "Property": "Width",
         "RuleProviderType": "System"
       },
       {
         "Category": "Design",
-        "InvariantScript": "If(\r\n    AlertasBind_2.EstadoAlerta,\r\n    1050,\r\n    38 + 15\r\n)",
+        "InvariantScript": "If(\n    AlertasBind_2.EstadoAlerta,\n    1050,\n    38 + 15\n)",
         "Property": "Height",
         "RuleProviderType": "System"
       },
@@ -1501,7 +1501,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638478227910586540",
+  "LastModifiedTimestamp": "638478247219818053",
   "Name": "480eec6e16da4cb5ab790389fef96e6e",
   "OverridableProperties": {},
   "TemplateOriginalName": "6411b8eee5bc4fafb939612acfcd54b6",
